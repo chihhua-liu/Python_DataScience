@@ -1,0 +1,86 @@
+
+gõb
+	/host:CPUõŒ
+
+tf_ComputeŒ
+´´œ2
+
+tf_Computeœ2ˆ4
+
+tf_Computeˆ4
+
+/device:GPU:0"õ´tf.constantH €ºP éÒ"Wõ´computeAreaHÀÄëˆP€éÁ¥¥Z
+tracing_count1Z!
+tf_function_calltraced-nonXla"-õ´TFE_Py_ExecuteCancelableH€“ûˆ‹P ÍÜ€'"=õ´(EagerExecute: __inference_computeArea_38H °¢˜‹P€ÿ÷î&"Bõ´-EagerLocalExecute: __inference_computeArea_38HÀÜñ˜‹PàÒ¨î&"3õ´EagerCopyToDeviceAndAddCacheKeyHà§Šš‹P €±"0õ´ValidateInputTypeAndPlacementH€Â¿’­PÀ„="Fõ´EagerKernelExecuteHÀšŞ“­PàõòòZ
+	step_name0Z
+group_id0"Kõ´FunctionRunHàîğ•­P ÇåÆZ
+id-3381298762043533047Z
+group_id0")õ´TFE_DeleteTensorHandleHÀşŸú³Pàûs"õ´tf.constantHÀûãŞ¤PÀ½å")õ´TFE_DeleteTensorHandleH€½¤ó¤PÀÏ$"-õ´TFE_Py_FastPathExecute_CH ¶˜—¥PÀÇÇ…"%õ´TFE_DeleteTensorHandleH ´Å¤¥"%õ´TFE_DeleteTensorHandleH€°¹¥¥"-õ´EagerExecute: LogicalAndH ûÑ¦¥P€®Êò"2õ´EagerLocalExecute: LogicalAndHÀ§¡§¥P€Úèñ"0õ´ValidateInputTypeAndPlacementH€Íö¿§PÀÏ$"6õ´EagerKernelExecuteHÀğüÀ§P€½«×Z
+group_id0"aõ´
+LogicalAndH ®Ä§P€è…ÑZ"
+	long_nameLogicalAnd:LogicalAndZ
+group_id0Z
+is_eager1",õ´TFE_Py_FastPathExecute_CHà†¶©Pà½–"*õ´EagerExecute: IdentityHà¯–½©P€™›"/õ´EagerLocalExecute: IdentityH ÿº½©Pà¡ä"0õ´ValidateInputTypeAndPlacementH ÈÏÊ©Pà§"5õ´EagerKernelExecuteHàÌŒË©P Ô’Z
+group_id0"Yõ´IdentityHà îË©P ¬OZ
+	long_nameIdentity:IdentityZ
+group_id0Z
+is_eager1",õ´TFE_Py_FastPathExecute_CH€Á¬Ó©P€øÉ"õ´tf.constantHàÄõ˜ªPà  
+")õ´TFE_DeleteTensorHandleH€î­¡ªPÀÏ$"õ´tf.constantHÀÓÖ¹ªP ¿‡")õ´TFE_DeleteTensorHandleHàŸ³ÀªPà§"õ´tf.constantHàŒ°ÑªP€ÈĞ")õ´TFE_DeleteTensorHandleHÀÔÏ×ªPà§",õ´TFE_Py_ExecuteCancelableHàı‡àªPÀ‰‘".õ´EagerExecute: WriteSummaryH€ÅÅãªPà½–"3õ´EagerLocalExecute: WriteSummaryHàì×ãªP îñ"0õ´ValidateInputTypeAndPlacementHÀøíªP€µ"5õ´EagerKernelExecuteH€’µîªP ¡‚Z
+group_id0"fõ´WriteSummaryHà©ïªP€¡ÑZ&
+	long_nameWriteSummary:WriteSummaryZ
+group_id0Z
+is_eager1")õ´TFE_DeleteTensorHandleHÀ‡ÊıªP ÷6")õ´TFE_DeleteTensorHandleHÀÛ«şªPà§")õ´TFE_DeleteTensorHandleH ƒ¾şªPà§"õ´tf.constantHÀ§×ƒ«P€ğ“	")õ´TFE_DeleteTensorHandleH ¤Š«PÀÏ$")õ´TFE_DeleteTensorHandleH€˜Í«PÀÏ$")õ´TFE_DeleteTensorHandleH Äœ«PÀÏ$")õ´TFE_DeleteTensorHandleHÀèµ•«P ¬O"%õ´TFE_DeleteTensorHandleHÀ¼—–«"eõŒExecutorState::ProcessHÀøÚö®P€òøïZ
+id-3381298762043533047Z
+iter_num0Z
+group_id0"iõŒStridedSliceH ‰·Í°P ½´Z)
+	long_namestrided_slice_1:StridedSliceZ
+group_id0Z
+is_eager0"dõœ2ExecutorState::ProcessH ¢Òİ°P€ö«*Z
+id-3381298762043533047Z
+iter_num0Z
+group_id0"gõœ2StridedSliceH€ò§ß°Pà  
+Z'
+	long_namestrided_slice:StridedSliceZ
+group_id0Z
+is_eager0"qõœ2AddNH Ú¶î°PàøÜZ9
+	long_name,ArithmeticOptimizer/AddOpsRewrite_add_1:AddNZ
+group_id0Z
+is_eager0"Oõœ2MulH€§õ÷°P€¥¬	Z
+	long_nametruediv:MulZ
+group_id0Z
+is_eager0"Mõœ2SubHÀÌƒ„±P üÕZ
+	long_name	sub_2:SubZ
+group_id0Z
+is_eager0"dõœ2ExecutorState::ProcessHàœ»ˆ±PÀÇîZ
+id-3381298762043533047Z
+iter_num0Z
+group_id0"Lõœ2SubH€íòŒ±PÀÏ$Z
+	long_name	sub_1:SubZ
+group_id0Z
+is_eager0"dõœ2ExecutorState::ProcessH€Œ¼±PÀ ïZ
+id-3381298762043533047Z
+iter_num0Z
+group_id0"Jõœ2SubHÀù±Pà§Z
+	long_namesub:SubZ
+group_id0Z
+is_eager0"Kõœ2MulH€•¶±PÀ÷çZ
+	long_namemul:MulZ
+group_id0Z
+is_eager0"Lõœ2MulH€‘Û±PÀÏ$Z
+	long_name	mul_1:MulZ
+group_id0Z
+is_eager0"Lõœ2MulH ½ª‘±Pà§Z
+	long_name	mul_2:MulZ
+group_id0Z
+is_eager0"Mõœ2SqrtH Üó‘±P Ô’Z
+	long_namepow:SqrtZ
+group_id0Z
+is_eager0"dõˆ4ExecutorState::ProcessH ¢Òİ°Pà˜êZ
+id-3381298762043533047Z
+iter_num0Z
+group_id0"iõˆ4StridedSliceH€ò§ß°P œã	Z)
+	long_namestrided_slice_2:StridedSliceZ
+group_id0Z
+is_eager0"Sõˆ4ExecutorDoneCallbackH ÙÜ™±PÀ ïZ
+id-3381298762043533047Z
+group_id0
